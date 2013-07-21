@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.hanja_input {
+	width: 99%;
+	height: 100px;
+	font-family: 한양해서, Dotum, Baekmuk Dotum, Undotum, Apple Gothic,
+		Latin font, sans-serif;
+	font-size: 14pt;
+	overflow: auto;
+}
+
+/*결과창에 나오는 한자*/
+span.hanja {
+	font-size: 25px;
+	line-height: 25px;
+}
+
+/*한자 뜻풀이*/
+ui.hanja_desc {
+	font-size: 15px;
+}
+
+/*한자 기본정보에 나오는 한자*/
+h1.hanja_info {
+	line-height: 20px;
+}
+
+/*한자 부수*/
+ui.hanja_radical {
+	font-size: 15px;
+}
+
+/*한자 단어*/
+h2.hanja_word_info {
+	line-height: 20px;
+}
+
+/*한자 단어 설명*/
+ui.hanja_word_desc {
+	font-size: 15px;
+}
+
+/*선택했을 때*/
+.selected {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*출력부분설정*/
+div.text_area {
+	background-color: #FFFADD;
+	word-wrap: break-word;
+	padding: 5px;
+}
+
+/*배경색 설정*/
+div.word_info {
+	background-color: #FFDDE1;
+	padding: 5px;
+}
+
+div.hanja_info {
+	background-color: #DFF1FF;
+	padding: 5px;
+}
+
+/*폰트변경*/
+.container {
+	font-family: 한양해서, Dotum, Baekmuk Dotum, Undotum, Apple Gothic,
+		Latin font, sans-serif;
+}
+
+/*버튼위치 조정*/
+.dic_btn {
+	position: relative;
+	top: 10px;
+}
+
+.next_btn {
+	position: relative;
+	left: 10px;
+}
+
+/*버튼위치조정*/
+.btn_area {
+	text-align: right;
+	padding-bottom: 5px;
+}
+
+/*화살표 크기조정*/
+.arrow_btn {
+	height: 30px;
+}
